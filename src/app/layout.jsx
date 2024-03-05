@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <MyMsalProvider>
-      <html lang="en">
+      <html lang="pt-br">
         <body className={GeistSans.className}>
           <StyledComponentsRegistry>
             <header>
